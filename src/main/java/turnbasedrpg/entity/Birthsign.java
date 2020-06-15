@@ -1,6 +1,14 @@
 package turnbasedrpg.entity;
 
-public enum Birthsign {
+/**
+ * 
+ * @author Michael T. Ross
+ *
+ */
+public enum BIRTHSIGN {
+
+	NONE,
+
 	WARRIOR, MAGE, THIEF,
 
 	SERPENT,
@@ -9,5 +17,6 @@ public enum Birthsign {
 
 	APPRENTICE, ATRONACH, RITUAL,
 
-	LOVER, SHADOW, TOWER,
+	LOVER, SHADOW, TOWER
+
 }

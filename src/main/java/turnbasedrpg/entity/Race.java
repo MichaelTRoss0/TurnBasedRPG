@@ -1,6 +1,11 @@
 package turnbasedrpg.entity;
 
-public enum Race {
+/**
+ * 
+ * @author Michael T. Ross
+ *
+ */
+public enum RACE {
 	ALTMER, ARGONIAN, BOSMER, BRETON, DUNMER, IMPERIAL, KHAJIT, NORD, ORSIMER, REDGUARD,
 
 	DRAGON
