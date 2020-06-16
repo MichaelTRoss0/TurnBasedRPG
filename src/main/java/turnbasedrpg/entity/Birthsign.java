@@ -7,16 +7,40 @@ package turnbasedrpg.entity;
  */
 public enum BIRTHSIGN {
 
+	// For generic units
 	NONE,
 
-	WARRIOR, MAGE, THIEF,
+	// Guardian Constellations
+	WARRIOR {
 
+	},
+
+	MAGE,
+
+	THIEF,
+
+	// Wandering Constellation
 	SERPENT,
 
-	LADY, STEED, LORD,
+	// Charges of the Warrior
+	LADY,
 
-	APPRENTICE, ATRONACH, RITUAL,
+	STEED,
 
-	LOVER, SHADOW, TOWER
+	LORD,
+
+	// Charges of the Mage
+	APPRENTICE,
+
+	ATRONACH,
+
+	RITUAL,
+
+	// Charges of the Thief
+	LOVER,
+
+	SHADOW,
+
+	TOWER
 
 }

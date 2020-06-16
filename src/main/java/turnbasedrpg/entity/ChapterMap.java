@@ -1,7 +1,5 @@
 package turnbasedrpg.entity;
 
-import java.util.ArrayList;
-
 import lombok.Data;
 
 /**
@@ -13,5 +11,7 @@ import lombok.Data;
 public class ChapterMap {
 
 	private int ID;
+
+	private TERRAIN[][] grid;
 
 }
