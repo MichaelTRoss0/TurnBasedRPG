@@ -26,6 +26,9 @@ public class Unit {
 	// rates, and movement range. See the Class.java page for a full list of
 	// classes.
 	private UNIT_CLASS unitClass;
+	
+	// 
+	private UNIT_TYPE unitType;
 
 	// The amount of experience that a unit has in a given class. Reaching a certain
 	// amount of class xp will master that class and grant an ability or art.
@@ -43,10 +46,15 @@ public class Unit {
 	// enemies. As a unit levels up, the amount of exp needed to level up increases.
 	private int exp;
 
-	// Health, Stamina, Magicka, Str, Int, Agi, Spd, Lck, End, Wil, Per, Move
-	private int[] stat;
+	// HP, SP, MP, Str, Int, Agi, Spd, Lck, End, Wil, Per, Total
+	// Base stats of a unit. These change with level-ups and class changes.
+	private int[] statBase;
 
-	// Same as above. This is the unit's individual stat growth rate.
+	// Mv, Atk, Hit, Crit, AS, Prt, Rsl, Avo, Rng
+	// Derived stats that are actually used for combat. 
+	private int[] statBattle;
+
+	// Same as statBase. This is the unit's individual stat growth rate.
 	private int[] statGrowthChar;
 
 	// Same as above. This is the sum of the unit's individual growth rate and their

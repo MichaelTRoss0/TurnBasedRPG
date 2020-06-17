@@ -6,6 +6,7 @@ package turnbasedrpg.entity;
  *
  */
 public enum RACE {
+	// Standard Playable Races
 	ALTMER, ARGONIAN, BOSMER, BRETON, DUNMER, IMPERIAL, KHAJIT, NORD, ORSIMER, REDGUARD,
 
 	DRAGON
