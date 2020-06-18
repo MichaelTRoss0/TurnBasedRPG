@@ -19,6 +19,9 @@ public class Unit {
 	// group they belong to.
 	private String name;
 
+	// The faction that the unit fights for in the story.
+	private String faction;
+
 	// A unit's race never changes.
 	private RACE race;
 
@@ -26,8 +29,8 @@ public class Unit {
 	// rates, and movement range. See the Class.java page for a full list of
 	// classes.
 	private UNIT_CLASS unitClass;
-	
-	// 
+
+	// This changes with class, and if a unit dismounts.
 	private UNIT_TYPE unitType;
 
 	// The amount of experience that a unit has in a given class. Reaching a certain
@@ -51,7 +54,7 @@ public class Unit {
 	private int[] statBase;
 
 	// Mv, Atk, Hit, Crit, AS, Prt, Rsl, Avo, Rng
-	// Derived stats that are actually used for combat. 
+	// Derived stats that are actually used for combat.
 	private int[] statBattle;
 
 	// Same as statBase. This is the unit's individual stat growth rate.
@@ -104,9 +107,13 @@ public class Unit {
 	private ArrayList<Integer> spellAvailable;
 
 	// Main-hand, Off-hand, Armor, Accessory
-	private int[] equipment;
+	private Item[] equipment;
 
 	// Each character can hold up to eight items that aren't equipped.
-	private int[] inventory;
+	private Item[] inventory;
+
+	// A list of active effects on this unit and their remaining duration.
+	// Hidden during normal play.
+	private ArrayList<Integer[]> effects;
 
 }
