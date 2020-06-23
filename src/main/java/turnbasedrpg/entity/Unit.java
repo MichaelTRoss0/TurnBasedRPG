@@ -30,8 +30,8 @@ public class Unit {
 	// classes.
 	private UNIT_CLASS unitClass;
 
-	// This changes with class, and if a unit dismounts.
-	private UNIT_TYPE unitType;
+	// This changes with class, and if a unit dismounts/lands.
+	private UNIT_TYPE[] unitType;
 
 	// The amount of experience that a unit has in a given class. Reaching a certain
 	// amount of class xp will master that class and grant an ability or art.

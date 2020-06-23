@@ -20,6 +20,10 @@ public enum UNIT_TYPE {
 
 	DAEDRA,
 
-	MONSTER
+	ATRONACH,
+
+	MONSTER,
+
+	AUTOMATON
 
 }
