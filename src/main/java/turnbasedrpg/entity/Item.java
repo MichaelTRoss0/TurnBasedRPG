@@ -8,7 +8,7 @@ import lombok.Data;
  *
  */
 @Data
-public class Item {
+class Item {
 
 	// The item object's unique identifying number.
 	protected int ID;

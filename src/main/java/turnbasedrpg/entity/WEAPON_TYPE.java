@@ -1,6 +1,11 @@
 package turnbasedrpg.entity;
 
-public enum WEAPON_TYPE {
+/**
+ * 
+ * @author Michael T. Ross
+ *
+ */
+enum WEAPON_TYPE {
 
 	ONE_HANDED, TWO_HANDED, GAUNTLET,
 

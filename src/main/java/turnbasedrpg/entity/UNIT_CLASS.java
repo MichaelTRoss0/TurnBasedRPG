@@ -5,7 +5,7 @@ package turnbasedrpg.entity;
  * @author Michael T. Ross
  *
  */
-public enum UNIT_CLASS {
+enum UNIT_CLASS {
 
 	// Unique Classes
 	

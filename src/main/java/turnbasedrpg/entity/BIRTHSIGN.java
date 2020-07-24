@@ -5,7 +5,7 @@ package turnbasedrpg.entity;
  * @author Michael T. Ross
  *
  */
-public enum BIRTHSIGN {
+enum BIRTHSIGN {
 
 	// For generic units
 	NONE,

@@ -23,5 +23,15 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Michael/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" sourcepath="C:/Users/Michael/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.ow2.asm"/>
+			<attribute name="maven.artifactId" value="asm"/>
+			<attribute name="maven.version" value="5.0.4"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
